@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: black;
+  }
+  
+  .pricing-section {
+    max-width: 80vw;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .price-card {
+    background-color: white;
+    border: 3px solid #F3F3F3;
+    margin: 0 40px 40px 10px;
+    padding: 30px;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    min-width: 250px; /* Prevent cards from becoming too narrow */
+    max-width: 400px; /* Prevent cards from becoming too wide on large screens */
+  }
+  
+  .card-title {
+    position: absolute;
+    height: 3.5em;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FEECED;
+    color: white;
+    padding: 10px 15px;
+    border-bottom: 3px solid #F3F3F3;
+  }
+  
+  .card-title h2 {
+    font-size: 1.25em;
+    margin: 0;
+    color: black;
+    font-weight: 550;
+  }
+  
+  .price-card > img {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .features {
+    list-style: none;
+    margin: 20px 0 30px;
+  }
+  
+  .features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .features li:last-child {
+    border-bottom: none;
+  }
+  
+  .cta-button {
+    background-color: #FEECED;
+    color: 1px solid #F3F3F3;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .cta-button:hover {
+    opacity: 0.9;
+  }
+  
